@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -7,42 +8,33 @@
             body {
                 background-color:rgb(255, 255, 143);
             }
-            .nodec a {
-                text-decoration: none;
-                color:rgb(255, 255, 143);
+            .nodec {
+            	text-decoration:none;
             }
-            .info {
-                background-color:rgb(204, 204, 204);
-                height: 200px;
-                width:60%;
-                overflow-y: auto;
-            	overflow-x: hidden;
+            .noenter {
+                display: inline-block;
+            }
+            .nocolour {
+                color:rgb(255, 255, 143);
             }
         </style>
     </head>
     <body>
         <center>
-            <h1>隠しページ</h1>
+            <h1 class="noenter">LE</h1>
+            <a onclick="location.href='https://clock2-k2.netlify.app'"><h1 class="noenter">V</h1></a>
+            <h1 class="noenter">EL 1</h1>
             <h2>–––––––––––––––––––––––––––––––––––––––––––––––––</h2>
             <br>
-            <h3>こんにちは、唐突ですが隠しページの第二弾を作りました。この下に説明がありまして、そこにルールとやらが全て書いてあります。第一弾をやったことがある人は飛ばしてもokです。</h3>
-            <h3>それでは、</h3>
-            <h3><a href="https://hazure-k2.netlify.app">スタート！</a></h3>
-            <br>
-            <br>
-            <br>
-            <h3 class="info">
-            <center>
-            <h2>
-            説明
-            </h2>
-            </center>
-            第一弾よりもずっと難しい内容となっていますが、その代わり問題数を大幅に削減しました。（ネタ切れ発生）7問です。レベル１から各レベルのWebページに隠された暗号やクイズに答えて次のレベルへのリンクを探すという趣旨のゲームです。所々クイズがあります。その時は https://（答え）-k2.netlify.app と記入してください。例：問題「a, b, ときたら次は？」」答え：「c」の時、https://c-k2.netlify.app と記入してください。ちなみにソースコードは流石に無しだと厳しいかなと思いますので使ってもokです。ちなみに、ヒントはこの下にあるので詰まったら参照してください。
-            <br>
-            ここまで読んでくれた人には本当の、
-            <br>
-            <a href="https://hazure-k2.netlify.app">スタート！</a></h3>
-            <a href="https://hint-k2.netlify.app">ヒント</a>
+                <a href="https://hazure-k2.netlify.app" class="nodec">
+                    <h3 class="noenter">今回も恒例の第一問は捨てます。何も引っかけ</h3>
+                </a>
+                <a href="lv2-k2.netlify.app" class="nodec">
+                    <h3 class="noenter">も</h3>
+                </a>
+                <a href="https://hazure-k2.netlify.app">
+                    <h3 class="noenter">ないです。</h3>
+                </a>
         </center>
         <br>
         <br>
@@ -57,6 +49,23 @@
         <br>
         <br>
         <br>
-        <h10 class="nodec"><a href="https://lv1-k2.netlify.app">.</a></h10>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="https://hazure-k2.netlify.app"><h3 class="nocolour">屁っ屁っ屁</h3></a>
     </body>
 </html>
