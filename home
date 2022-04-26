@@ -18,6 +18,9 @@
                 overflow-y: auto;
             	overflow-x: hidden;
             }
+            body {
+                text-align:center;
+            }
         </style>
     </head>
     <body>
@@ -31,18 +34,15 @@
             <br>
             <br>
             <br>
-            <h3 class="info">
-            <center>
-            <h2>
-            説明
-            </h2>
-            </center>
-            第一弾よりもずっと難しい内容となっていますが、その代わり問題数を大幅に削減しました。（ネタ切れ発生）7問です。レベル１から各レベルのWebページに隠された暗号やクイズに答えて次のレベルへのリンクを探すという趣旨のゲームです。所々クイズがあります。その時は https://（答え）-k2.netlify.app と記入してください。例：問題「a, b, ときたら次は？」」答え：「c」の時、https://c-k2.netlify.app と記入してください。ちなみにソースコードは流石に無しだと厳しいかなと思いますので使ってもokです。ちなみに、ヒントはこの下にあるので詰まったら参照してください。
-            <br>
-            ここまで読んでくれた人には本当の、
-            <br>
-            <a href="https://hazure-k2.netlify.app">スタート！</a></h3>
-            <a href="https://hint-k2.netlify.app">ヒント</a>
+            <div class="info">            
+                <h2>説明</h2>
+                第一弾よりもずっと難しい内容となっていますが、その代わり問題数を大幅に削減しました。（ネタ切れ発生）7問です。レベル１から各レベルのWebページに隠された暗号やクイズに答えて次のレベルへのリンクを探すという趣旨のゲームです。所々クイズがあります。その時は https://（答え）-k2.netlify.app と記入してください。例：問題「a, b, ときたら次は？」」答え：「c」の時、https://c-k2.netlify.app と記入してください。ちなみにソースコードは流石に無しだと厳しいかなと思いますので使ってもokです。ちなみに、ヒントはこの下にあるので詰まったら参照してください。
+                <br>
+                ここまで読んでくれた人には本当の、
+                <br>
+                <h3><a href="https://hazure-k2.netlify.app">スタート！</a></h3>
+                <h3><a href="https://hint-k2.netlify.app">ヒント</a></h3>
+            </div>
         </center>
         <br>
         <br>
@@ -57,6 +57,6 @@
         <br>
         <br>
         <br>
-        <h10 class="nodec"><a href="https://lv1-k2.netlify.app">.</a></h10>
+        <h5 class="nodec"><a href="https://lv1-k2.netlify.app">.</a></h5>
     </body>
 </html>
