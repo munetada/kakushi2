@@ -7,7 +7,7 @@
             body {
                 background-color:rgb(255, 255, 143);
             }
-            .nocolour {
+            .nodec a {
                 text-decoration: none;
                 color:rgb(255, 255, 143);
             }
@@ -15,27 +15,12 @@
                 display: inline-block;
             }
         </style>
-    	<script>
-			window.document.onkeydown = function(event) {
-  				if (event.altKey == true) {
-                event.preventDefault();
-  				}
-			}
-		</script>
     </head>
     <body>
         <center>
-            <h1>LEVEL 7</h1>
+            <h1>GAME CLEAR</h1>
             <h2>–––––––––––––––––––––––––––––––––––––––––––––––––</h2>
             <br>
-            <h3>最終問題です。では、謎解きでも、ウェブの知識も使いません。ただただ、運で決めましょう。</h3>
-            <h3>1%を当てられるかな？</h3>
-            <button>1%を当てろ！</button>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h6><a onclick="location.href='https://cleargame-k2/netlify.app'" class="nocolour">.</a></h6>
 	</center>
     </body>
-    </html>
+</html>
