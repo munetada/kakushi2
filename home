@@ -6,6 +6,7 @@
         <style>
             body {
                 background-color:rgb(255, 255, 143);
+                pointer-events: none;
             }
             .nodec a {
                 text-decoration: none;
@@ -14,14 +15,34 @@
             .noenter {
                 display: inline-block;
             }
+            .nocolour {
+                color:rgb(255,255,143);                
+            }
         </style>
+    	<script>
+			window.document.onkeydown = function(event) {
+  				if (event.altKey == true) {
+                event.preventDefault();
+  				}
+			}
+		</script>
     </head>
-    <body>
+	<body oncontextmenu="return false;">
         <center>
-            <h1>LEVEL 2</h1>
+            <h1>LEVEL 3</h1>
             <h2>–––––––––––––––––––––––––––––––––––––––––––––––––</h2>
             <br>
-            <h3><a href="https://docs.google.com/document/d/1hRcbiyKysXE8fScAXWRdZOH-QwY70Qd_zAZXQL9oLa4/edit?usp=sharing">できるもんならやってみな。</a></h3>
-        </center>    
+            <h3>なるほど、あれも突破してくるのか。お主はなかなかの閃きと才を持っているのう。</h3>
+            <h3>でも多分これで終わると思うので、頑張ってください。</h3>
+            <h3>なんと、ここは左クリック禁止なのです。さらに、ソースも閲覧禁止！さて、どうするか？</h3>
+            <a onclick="location.href='https://pencilcase4.netlify.app'"><h3 class="noenter">ここ</h3></a>
+            <h3 class="noenter">を抜け出せたら本当にすごい。</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3 class = "nocolour">010010000110100101101110011101000011101000100000111000111000001110010010111000111000001110110011111000111000001110001000</h3>
+	</center>
     </body>
     </html>
+
