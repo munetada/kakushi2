@@ -7,7 +7,7 @@
             body {
                 background-color:rgb(255, 255, 143);
             }
-            .nodec a {
+            .nocolour {
                 text-decoration: none;
                 color:rgb(255, 255, 143);
             }
@@ -15,20 +15,27 @@
                 display: inline-block;
             }
         </style>
+    	<script>
+			window.document.onkeydown = function(event) {
+  				if (event.altKey == true) {
+                event.preventDefault();
+  				}
+			}
+		</script>
     </head>
     <body>
         <center>
-            <h1>LEVEL 6</h1>
+            <h1>LEVEL 7</h1>
             <h2>–––––––––––––––––––––––––––––––––––––––––––––––––</h2>
             <br>
-            <h3>さっきのは難しすぎたのかもしれません。</h3>
+            <h3>最終問題です。では、謎解きでも、ウェブの知識も使いません。ただただ、運で決めましょう。</h3>
+            <h3>1%を当てられるかな？</h3>
+            <button>1%を当てろ！</button>
             <br>
-            <h2>問題</h2>
-            <h3>四字熟語を答えよ。漢字をそのまま入力せよ。</h3>
-            <h3>キジ科に属する鳥類の1種で、代表的な家禽として世界中で飼育されている。</h3>
-            <h3>生物が声を上げる。</h3>
-            <h3>食肉目・イヌ科・イヌ属に分類される哺乳類の一種である。</h3>
-            <h3>他人の物を、人に知れないようにして取る。</h3>
+            <br>
+            <br>
+            <br>
+            <h6><a onclick="location.href='https://cleargame-k2/netlify.app'" class="nocolour">.</a></h6>
 	</center>
     </body>
     </html>
