@@ -14,13 +14,27 @@
             .noenter {
                 display: inline-block;
             }
+            .changeposition {
+                position:relative;
+                left:294px;
+                top:-265px;
+            }
         </style>
     </head>
     <body>
         <center>
-            <h1>GAME CLEAR</h1>
+            <h1>Hint</h1>
             <h2>–––––––––––––––––––––––––––––––––––––––––––––––––</h2>
             <br>
-	</center>
+            <h3>どうしてもわからない時にヒントを差し上げます。</h3>
+	    </center>
+            <h3>レベル１　余裕。とりあえずたくさんクリック。</h3>
+            <h3>レベル２　Caesarが関係している暗号と言えば…？これって何語だっけ？</h3>
+            <h3>レベル３　これはめっちゃ難しい。</h3>
+            <h3>レベル４　主要駅ですね。</h3>
+            <h3>レベル５　曲を聞いているから音符…？何かのベースを0としたとか…？</h3>
+            <h3>レベル６　余裕。四字熟語です。</h3>
+            <h3>レベル７　ノーヒント！</h3>
+            <h3 class="nodec"><a href="https://pencilcase4-k2.netlify.app" class="changeposition">.</a></h3>
     </body>
 </html>
